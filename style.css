@@ -1,0 +1,93 @@
+:root {
+    --color1: #673ab7; 
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/Inter-Regular.ttf);
+}
+
+body {
+    font-family: "inter";
+    background: #181818;
+    min-height: 100vh;
+    color: white;
+}
+
+nav {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+h2 {
+    flex: 1;
+    margin-left: 5px;
+}
+nav ul {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    justify-content: space-between;
+}
+
+li {
+    flex: 1;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.header-right {
+    flex: 1;
+}
+.header-right img {
+    max-width: 100%;
+    height: 70vh;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+.header-left-container h3 {
+    color: var(--color1);
+    font-size: 1.1rem;
+    margin: 0;
+}
+p {
+    font-size: 0.5rem;
+}
+
+.infos {
+    display: flex;
+    background: black;
+    border-radius: 5px;
+}
+.infos-left {
+    display: block;
+    width: 30%;
+}
+.infos-right {
+    width: 70%;
+    
+}
+
+.img-container img {
+    max-width: 100%;
+    height: 5vh;
+}
+.inverstors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
